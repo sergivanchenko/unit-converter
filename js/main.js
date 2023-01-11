@@ -25,5 +25,5 @@ convert.addEventListener('click', function () {
   // Mass
   let multiMass = (userInput.value * oneKiloPounds).toFixed(3);
   let divMass = (userInput.value / oneKiloPounds).toFixed(3);
-  MassKiloPounds.textContent = `${userInput.value} kilos = ${multiMass} pounds | ${userInput.value} pounds = ${divMass} kilos`;
+  MassKiloPounds.textContent = `${userInput.value} kilos = ${multiMass} pounds | ${userInput.value} pounds = ${divMass} meters`;
 });
